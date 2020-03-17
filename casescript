@@ -1,0 +1,64 @@
+#!/bin/bash
+#Capitals of different states
+
+echo "Enter State name"
+read state
+case $state in "Uttar Pradesh")
+                     echo "Capital is Lucknow" ;;
+               "Punjab"|"Haryana")
+                     echo "Capital is Chandigarh" ;;
+               "Bihar")
+                     echo "Capital is Patna" ;;
+               "Jharkhand")
+                     echo "Capital is Ranchi" ;;
+               "Rajasthan")
+                     echo "Capital is Jaipur" ;;
+               "Madhya Pradesh")
+                     echo "Capital is Bhopal" ;;
+               "Andhra Pradesh")
+                     echo "caapital is Amravati" ;;
+               "Arunachal Pradesh")
+                     echo "Capital is Itanagar" ;;  
+               "Assam")
+                     echo "Capital is Dispur" ;;
+               "Chhattisgarh")
+                     echo "Capital is Atal Nagar (Naya Raipur)" ;;
+               "Goa")
+                    echo "Capital is Panaji" ;;
+               "Gujarat")
+                    echo "Capital is Gandhinagar" ;;
+               "Himachal Pradesh")
+                    echo "Capital is Shimla/Dharamshala" ;;
+               "Jammu and Kashmir")
+                    echo "Capital is Srinagar/Jammu" ;;
+               "Karnataka")
+                    echo "Capital is Bengaluru" ;;
+               "Kerala")
+                    echo "Capital is Thiruvananthapuram" ;;
+               "Maharashtra")
+                    echo "Capital is Mumbai" ;;
+               "Manipur")
+                    echo "Capital is Imphal" ;;
+               "Meghalaya")
+                    echo "Capital is Shillong" ;;
+               "Mizoram")
+                    echo "Capital is Aizawl" ;;
+               "Nagaland")
+                    echo "Capital is Kohima" ;;
+               "Odisha")
+                    echo "Capital is Bhubaneswar" ;;
+               "Sikkim")
+                    echo "Capital is Gangtok" ;;
+               "Tamil Nadu")
+                    echo "Capital is Chennai" ;;
+               "Telangana")
+                    echo "Capital is Hyderabad" ;;
+               "Tripura")
+                    echo "Capital is Agartala" ;;
+               "Uttarakhand")
+                    echo "Capital is Dehradun" ;;
+               "West Bengal")
+                    echo "Capital is Kolkata" ;;
+               *) 
+                    echo "Are you an Alien" ;;
+esac
